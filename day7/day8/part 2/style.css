@@ -1,0 +1,14 @@
+.html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.menu li {
+    margin: 0 20px;
+}
+.landing__content {
+    
+}

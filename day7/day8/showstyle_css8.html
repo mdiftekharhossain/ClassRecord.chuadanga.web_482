@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style.css</title>
+</head>
+<body>
+    
+    <xmp>
+
+                
+.menu {
+    list-style: none;
+    font-family: Tahoma,sans-serif;
+    padding: 0 30px;
+    }
+    .menu li{
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        font-weight: 500px;
+        cursor: pointer;
+        }   
+    .menu .menu__pic{
+        height: 36px;
+        width: 36px;
+        margin-right: 10px;
+        object-fit: cover;
+        border: 2px solid #ddd;
+        border-radius: 50%;
+
+    }  
+   
+.menu li:hover{
+    color: green;
+}
+.menu li .menu__icon__holder {
+    display: inline-block; 
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+    /* font-weight: 600px;
+    font-size: 26p; */
+}
+.menu .menu__icon {
+    width: 100%;
+    height: auto;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-between span {
+    margin-right: 0px!important;
+}
+
+@media screen and (min-width:780px){
+    .menu{
+        display:flex;
+        justify-content: flex-end;
+        border-bottom: 0px;
+    }
+    .menu li{
+    padding: 0px 15px;
+    border-bottom: none;
+    }
+    .menu .menu__mobile .menu__text, .menu .hide{
+        display: none;
+    }
+    .menu .menu__mobile span {
+        display: block;
+    }
+    .profile__pic {
+        order: 1;
+    }
+}
+
+    </xmp>
+
+    <a href="./showhtml8.html">index.html</a><br>
+<a href="./index8.html">View The Output</a><br>
+<a href="../index.html">Go to homepage</a>
+</body>
+</html>
