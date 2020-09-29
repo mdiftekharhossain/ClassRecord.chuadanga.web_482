@@ -1,0 +1,36 @@
+      
+.menu {
+    list-style: none;
+    font-family: Tahoma,sans-serif;
+    padding: 0 30px;
+}
+.menu li{
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+}   
+.menu .menu__pic{
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+        border: 2px solid #dddddd;
+
+}  
+
+
+@media screen and (min-width: 768px)  {
+    .menu {
+        display:flex;
+        justify-content: flex-end;
+    }
+    .menu li{
+    padding: 0 15px;
+    border-bottom: none;
+    }
+    .menu .menu__mobile{
+    display: none;
+    }
+}
