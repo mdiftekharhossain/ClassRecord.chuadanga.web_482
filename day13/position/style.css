@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.container {
+    height: 200px;
+    margin-top: 200px;
+    background-color:lightgreen;
+    position: relative;
+    
+}
+.box {
+    width: 200Px;
+    height: 220px;
+    padding: 50px 100px;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+}
+.con1 {
+    left: 50px;
+    top: 100px;
+    
+}
+
+.con2 {
+    top: -100px;
+    left: 40%;
+    
+}
+
+.con3 {
+    right: 50px;
+    top: 100px;
+   
+}
