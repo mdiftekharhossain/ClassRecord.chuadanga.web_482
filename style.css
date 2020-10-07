@@ -1,14 +1,25 @@
-.main {
-    color: white;
-    background-color: rgb(92, 175, 47) ;
-    height: 25px;
-    width: 60px;
-    display: grid;
-    place-items: center;
-}
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-family: Tahoma, sans-serif;
+        font-size: 18px;
+    }
 
-.ht {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid #cccccc;
-}
+
+    .main {
+        color: white;
+        background-color: rgb(92, 175, 47) ;
+        height: 25px;
+        width: 60px;
+        display: grid;
+        place-items: center;
+    }
+
+    .ht {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #cccccc;
+    }
